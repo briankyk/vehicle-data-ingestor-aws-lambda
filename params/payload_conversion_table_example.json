@@ -1,0 +1,32 @@
+[
+    {
+        "Property ID": "1",
+        "Property Name": "Speed",
+        "Btyes": "1",
+        "Type": "Signed",
+        "Min Value": null,
+        "Max Value": null,
+        "Multiplier": null,
+        "Units": "kph"
+    },
+    {
+        "Property ID": "2",
+        "Property Name": "Latitude",
+        "Btyes": "1",
+        "Type": "Signed",
+        "Min Value": null,
+        "Max Value": null,
+        "Multiplier": null,
+        "Units": null
+    },
+    {
+        "Property ID": "3",
+        "Property Name": "Longitude",
+        "Btyes": "1",
+        "Type": "Signed",
+        "Min Value": null,
+        "Max Value": null,
+        "Multiplier": null,
+        "Units": null
+    }
+]

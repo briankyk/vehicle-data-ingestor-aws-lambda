@@ -1,0 +1,14 @@
+{
+    "topicRulePayload": {
+        "sql": "SELECT *, topic() AS topic, clientid() AS clientid FROM 'mqtt/topic/here'",
+        "ruleDisabled": false,
+        "awsIotSqlVersion": "2016-03-23",
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "[arn]:function:${topic()}"
+                }
+            }
+        ]
+    }
+}

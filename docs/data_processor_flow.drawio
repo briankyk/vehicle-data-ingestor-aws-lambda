@@ -1,0 +1,142 @@
+<mxfile host="Electron" modified="2024-05-22T21:26:19.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="u5X1t7aY21m_kLAZP_H0" version="23.1.5" type="device">
+  <diagram name="Page-1" id="LZytxGlVg02oqPmG760E">
+    <mxGraphModel dx="1700" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-1" target="KbJHyVPZX2jScKa9dIp1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="-160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-2" target="KbJHyVPZX2jScKa9dIp1-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-2" value="Initiate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-3" target="V0BSXIc_aq5J1b_K2uzX-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-3" value="Receive payload from&lt;br&gt;AWS IoT Core MQTT Topic&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-6" target="KbJHyVPZX2jScKa9dIp1-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-6" value="Retrieve thingAttributes from thing registry" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-8" target="KbJHyVPZX2jScKa9dIp1-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KbJHyVPZX2jScKa9dIp1-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.21" y="1" relative="1" as="geometry">
+            <mxPoint x="-25" y="39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-8" target="KbJHyVPZX2jScKa9dIp1-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KbJHyVPZX2jScKa9dIp1-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.155" y="5" relative="1" as="geometry">
+            <mxPoint x="12" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-8" value="Retrieval OK ?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="640" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-10" target="KbJHyVPZX2jScKa9dIp1-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-10" value="Inject payload with &lt;br&gt;thingAttributes" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="760" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-16" target="KbJHyVPZX2jScKa9dIp1-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-16" value="Return error code" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="760" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-17" target="KbJHyVPZX2jScKa9dIp1-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1560" />
+              <mxPoint x="120" y="1560" />
+            </Array>
+            <mxPoint x="120" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-17" value="Put payload to SQS dead-letter queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1080" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-19" target="KbJHyVPZX2jScKa9dIp1-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-19" value="Parse payload with data conversion library" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="920" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-21" target="KbJHyVPZX2jScKa9dIp1-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-21" value="Compose and write AWS Timestream record with dimensions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="1080" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KbJHyVPZX2jScKa9dIp1-23" target="KbJHyVPZX2jScKa9dIp1-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-27" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KbJHyVPZX2jScKa9dIp1-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.275" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-23" target="KbJHyVPZX2jScKa9dIp1-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1280" />
+              <mxPoint x="110" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-30" value="No&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KbJHyVPZX2jScKa9dIp1-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.0877" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-23" value="Timestream Write OK ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="1240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KbJHyVPZX2jScKa9dIp1-25" target="KbJHyVPZX2jScKa9dIp1-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="1560" />
+              <mxPoint x="120" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-25" value="Return OK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="1400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KbJHyVPZX2jScKa9dIp1-28" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1600" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V0BSXIc_aq5J1b_K2uzX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V0BSXIc_aq5J1b_K2uzX-1" target="KbJHyVPZX2jScKa9dIp1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V0BSXIc_aq5J1b_K2uzX-1" value="Store raw record into S3 bucket&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,20 @@
+{
+    "defaultClientId": "clientid",
+    "thingName": "logger_imei",
+    "thingId": "[thingId]",
+    "thingArn": "[arn]",
+    "thingTypeName": "vehicle_data_logger",
+    "attributes": {
+        "device_id": "logger_imei",
+        "device_model": "logger_model",
+        "licence_plate": "license_plate",
+        "location": "vehicle_location",
+        "organization": "organization",
+        "power_source": "power_source",
+        "vehicle_id": "vehicle_identification_number",
+        "vehicle_manufacturer": "vehicle_manufacturer",
+        "vehicle_model": "vehicle_model",
+        "vehicle_type": "vehicle_type"
+    },
+    "version": 1
+}
